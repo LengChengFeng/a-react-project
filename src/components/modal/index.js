@@ -3,6 +3,7 @@ import { Modal } from "antd";
 import { Form, Input } from "antd";
 const useMyModal = forwardRef((props, MyRef) => {
   const { modalContent = {} } = props;
+  console.log(2);
   const [isModalVisible, setIsModalVisible] = useState(false);
   console.log(2);
   useImperativeHandle(MyRef, () => ({
