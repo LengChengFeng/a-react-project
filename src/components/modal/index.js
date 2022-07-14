@@ -7,6 +7,8 @@ const useMyModal = forwardRef((props, MyRef) => {
   const [isModalVisible, setIsModalVisible] = useState(false);
   console.log(2);
   console.log(3);
+
+  console.log("我是demo分支");
   useImperativeHandle(MyRef, () => ({
     show,
   }));
