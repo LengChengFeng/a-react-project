@@ -176,3 +176,6 @@ const detail = function (opts) {
 };
 
 Mock.mock("/mock/news/detail", detail);
+
+console.log("我是来练习tag的");
+console.log("我要发布tagv 1.0");
